@@ -51,10 +51,15 @@ body{
     display:inline-flex;
     list-style: none;
     margin-right: 10px;
+    text-decoration: none;
 }
-.nav-links .nav-link:hover{
+.nav-link:hover{
     color: #2196f3;
     cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:visited{
+    text-decoration: none;
 }
 
 /*contact and address*/
@@ -243,6 +248,9 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    height: 32px;
+    width: 32px;
+    padding: 12px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
     background-color: #2196f3;
@@ -273,7 +281,7 @@ body{
 /*containers*/
 .container-main{
     background-color: #2F303A;
-    background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(./images/background1.jpg) no-repeat;
+    background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(/images/background1.jpg), no-repeat;
     min-height: 600px;
     display:flex;
     justify-content: center;
@@ -315,6 +323,7 @@ body{
     border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
+    justify-items: space-between;
 }
 .container-nav-links{
     display: inline-flex;
@@ -323,8 +332,8 @@ body{
 }
 .container-contact-header{
     display: inline-flex;
-    justify-content: right;
 }
+
 .container-lorem-ipsum{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -370,6 +379,7 @@ body{
     margin-bottom: 30px;
     padding-bottom: 10px;
     border: 1px solid #ECECEC;
+    cursor: pointer;
 }
 .container-portfolio-projects-item:hover{
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
