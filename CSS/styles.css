@@ -248,8 +248,6 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    height: 32px;
-    width: 32px;
     padding: 12px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
