@@ -226,6 +226,7 @@ body{
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    padding: 6px;
 }
 .customer-icon:hover{
     fill:#2196F3;
@@ -248,7 +249,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 12px;
+    padding: 6px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
     background-color: #2196f3;
@@ -264,8 +265,8 @@ body{
 .social-media-items-footer{
     display: flex;
     list-style: none;
-    display: flex;
     justify-content: space-between;
+    padding-inline-start: 0px;
 }
 .social-media-logo-footer{
     background: rgba(255, 255, 255, 0.1);
@@ -274,6 +275,7 @@ body{
     display:flex;
     align-items: center;
     cursor: pointer;
+    padding: 6px;
 }
 
 /*containers*/
@@ -290,12 +292,7 @@ body{
     min-height: 252px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
     padding: 94px 0px;
-}
-.container-footer-adress{
-    display: flex;
-    flex-direction: column;
 }
 .container-our-team{
     background-color:#F5F4FA;
