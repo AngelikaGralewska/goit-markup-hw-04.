@@ -52,6 +52,7 @@ body{
     list-style: none;
     margin-right: 10px;
     text-decoration: none;
+    color: #212121;
 }
 .nav-link:hover{
     color: #2196f3;
@@ -226,7 +227,7 @@ body{
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    padding: 6px;
+    padding: 25px;
 }
 .customer-icon:hover{
     fill:#2196F3;
@@ -238,6 +239,7 @@ body{
     border-radius: 4px;
     align-items: center;
     justify-content: center;
+    padding: 25px;
 }
 
 /*social media items*/
@@ -249,7 +251,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 6px;
+    padding: 12px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
     background-color: #2196f3;
