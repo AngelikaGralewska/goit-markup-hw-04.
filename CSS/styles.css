@@ -76,6 +76,7 @@ body{
 }
 .contact-heder:hover{
     color: #2196f3;
+    fill: #2196f3;
 }
 .contact-heder-icon{
     margin-left: 15px;
@@ -245,7 +246,7 @@ body{
 /*social media items*/
 .social-media-logo{
     background-color:#ffffff;
-    border-radius: 50px;
+    border-radius: 50%;
     fill:#AFB1B8;
     display: flex;
     align-items: center;
@@ -273,11 +274,11 @@ body{
 .social-media-logo-footer{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 50px;
-    fill: #2196f3;
+    fill: #ffffff;
     display:flex;
     align-items: center;
     cursor: pointer;
-    padding: 6px;
+    padding: 12px;
 }
 
 /*containers*/
@@ -329,6 +330,7 @@ body{
 }
 .container-contact-header{
     display: inline-flex;
+    list-style: none;
 }
 
 .container-lorem-ipsum{
