@@ -256,6 +256,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    padding: 12px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
     background-color: #2196f3;
