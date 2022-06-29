@@ -73,17 +73,19 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-right: 0px;
     cursor: pointer;
 }
-.contact-heder-item:hover, .contact-heder:hover, .contact-heder-icon:hover{
+.contact-heder-icon{
+    fill: #757575;
+}
+.contact-header-link{
+    margin-left: 30px;
+}
+.contact-header-link:hover, .contact-heder-icon:hover, .contact-heder:hover{
     color: #2196f3;
     fill: #2196f3;
-}
-.contact-heder-icon{
-    margin-left: 15px;
-    fill: #757575;
 }
 .address, .contact-footer{
     font-weight: 400;
@@ -255,7 +257,6 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    padding: 12px;
 }
 .social-media-logo:hover, .social-media-logo-footer:hover{
     background-color: #2196f3;
@@ -289,7 +290,9 @@ body{
 /*containers*/
 .container-main{
     background-color: #2F303A;
-    background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(/images/background1.jpg), no-repeat;
+    background-image:url('./images/background1.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     min-height: 600px;
     display:flex;
     justify-content: center;
