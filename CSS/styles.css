@@ -284,6 +284,10 @@ body{
     display:flex;
     align-items: center;
     cursor: pointer;
+    margin:5px;
+}
+.social-media-logo-footer-list{
+    margin-left: 65px;
 }
 
 /*containers*/
@@ -394,6 +398,10 @@ body{
 .container-our-customers{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+.container-footer-list{
+    display: flex;
+    list-style: none;
 }
 .container-social-media-footer{
     display: flex;
