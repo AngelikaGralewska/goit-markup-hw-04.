@@ -83,9 +83,11 @@ body{
 .contact-header-link{
     margin-left: 30px;
 }
-.contact-header-link:hover, .contact-heder-icon, .contact-heder{
-    color: #2196f3;
+.contact-header-link:hover .contact-heder-icon{
     fill: #2196f3;
+}
+.contact-header-link:hover .contact-heder{
+    color: #2196f3;
 }
 .address, .contact-footer{
     font-weight: 400;
